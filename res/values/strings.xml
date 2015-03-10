@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Birthday Wishes Sender</string>
+    <string name="send_lbl_phone">Phone Number</string>
+    <string name="send_btn_send">Send</string>
+    <string name="schedule_btn_send">Schedule</string>
+    <string name="land_loading_txt">Pendind Cetegory Selection</string>
+
+    <!-- DataBase -->
+
+    <string-array name="categories">
+        <item>Friends_male</item>
+        <item>Friends_female</item>
+        <item>BestFriends_male</item>
+        <item>BestFriends_female</item>
+        <item>Beautiful</item>
+        <item>Inspirational</item>
+        <item>Lovers</item>
+        <item>Meaningful</item>
+        <item>Cute</item>
+        <item>Mother</item>
+        <item>Father</item>
+    </string-array>
+    <string-array name="Friends_male">
+        <item>May your birthday and every day be filled with the warmth of sunshine, the happiness of smiles, the sounds of laughter, the feeling of love and the sharing of good cheer </item>
+        <item> I hope you have a wonderful day and that the year ahead is filled with much love, many wonderful surprises and gives you lasting memories that you will cherish in all the days ahead. Happy Birthday</item>
+        <item>  On this special day, i wish you all the very best, all the joy you can ever have and may you be blessed abundantly today, tomorrow and the days to come! May you have a fantastic birthday and many more to come.. HAPPY BIRTHDAY!!!!</item>
+        <item> They say that you can count your true friends on 1 hand - but not the candles on your birthday cake! #1Happybirthday</item>
+        <item> Celebrate your birthday today. Celebrate being Happy every day.</item>
+        <item>  May your birthday be filled with many happy hours and your life with many happy birthdays. HAPPY BIRTHDAY !!</item>
+        <item> So many candles for such a small cake? Happy Birthday.</item>
+        <item>  Happy birthday! Enjoy this year and use it as a launchpad for your future! </item>
+        <item> Well, you are another year older and you haven\'t changed a bit. That\'s great because you are perfect just the way you are. Happy Birthday.</item>
+        <item>You are special and I hope that you float through the day with a big smile on your face. Happy Birthday! </item>
+        <item> Take a day off to celebrate you birthday. Take a year off and tell people you are younger. Happy Birthday.</item>
+        <item> Can you blow all those candles out or should we call the fire department? Happy Birthday. </item>
+        <item>Happy Birthday!!! I hope this is the begining of your greatest, most wonderful year ever! </item>
+        <item> When the world works right, good things happen to and for good people and you are definitely good people. Happy Birthday!</item>
+        <item>Wishing you a day that is as special in every way as you are. Happy Birthday. </item>
+        <item> You have to get older, but you don\'t have to grow up.</item>
+        <item> You are my friend. You are always there for me, supporting me, encouraging me , listening to me and all those other things that friends do. Happy Birthday Friend.</item>
+        <item> Set the world on fire with your dreams and use the flame to light a birthday candle. HAPPY BIRTHDAY !!</item>
+        <item> Thinking of you on your birthday, and wishing you all the best! I hope it is as fantastic as you are, you deserve the best and nothing less.</item>
+        <item> Wishing you all the great things in life, hope this day will bring you an extra share of all that makes you happiest. Happy Birthday.</item>
+        <item> I hope that you have the greatest birthday ever from the moment you open your eyes in the morning until they close late at night. </item>
+        <item>On this special day, I wish you all the very best, all the joy you can ever have and may you be blessed abundantly today, tomorrow and the days to come! May you have a fantastic birthday and many more to come&#8230; HAPPY BIRTHDAY!!!! </item>
+        <item> They say you lose your memory as you grow older. I say forget about the past and live life to the fullest today. Start with ice cream. Happy Birthday.</item>
+        <item> Hope your birthday is totally cool, really funtastic, wonderful, exciting, majorly awesome, rocking and HAPPY. Happy Birthday wishes.</item>
+        <item> Hope you love your new age. It loves you because it looks good on you. Happy Birthday.</item>
+        <item>Be your own light. Find your own way. It should be easy with all those candles. </item>
+        <item> I\'ve got some good news and some bad news. The good news is that you get better looking every year. Happy Birthday.</item>
+        <item> I wish that I could be the greatest friend in the world, but there is no way to be a better friend than you are. Happy Birthday. </item>
+        <item> I\'ve been that age. I\'ve done that age. It is fun. Enjoy!</item>
+        <item>Your birthday should be a national holiday. I need a day off. Happy Birthday. </item>
+        <item>You are a gift to the world. How is that for a reverse birthday wish. Happy Birthday </item>
+    </string-array>
+    <string-array name="Friends_female">
+        <item> You will soon start a new phase of life! But that can wait until you are older. Enjoy another year of being young. Happy Birthday.</item>
+        <item> It is your birthday so I\'ll make the toasts and you make the boasts. Happy Birthday </item>
+        <item>I hope that today is the beginning of a great year for you. Happy Birthday </item>
+        <item>  Happy Birthday !! Have a wonderful happy, healthy birthday and many more to </item>
+        <item>I hope you have a beautiful day and get at least half of what you want! Happy Birthday! </item>
+        <item> Happy Birthday. Just one more year and you will be perfect. Yes, I did say that last </item>
+        <item> You have a birthday twinkle in your eye so have fun and know we love you fairy, fairy much. Happy Birthday. </item>
+        <item> Live today like it is a special gift, because it is the best birthday gift. Happy Birthday. </item>
+        <item>Happy Birthday. Wishing you more glorious and wonderful years on the surface of the earth - or wherever you might be. </item>
+        <item>May life\'s brightest joys illuminate your path, and may each day\'s journey bring you closer to your dreams! HAPPY BIRTHDAY </item>
+        <item>May your heart naturally beat with the happiness and laughter that you give others. Happy Birthday. </item>
+        <item>  You don\'t have to grow up, you don\'t have to grow old, just have a Happy Birthday</item>
+        <item> Happy Birthday. Hope it\'s one of the best ever!!!!&#8230; a lovely birthday for a lovely person! </item>
+        <item>Happy Birthday. I wish you well and I hope all you birthday wishes come true! </item>
+        <item> Wishing you health, love, wealth, happiness and just everything your heart desires. Happy Birthday.</item>
+        <item>Happy Birthday to a friend who means more to me than chocolate. </item>
+        <item> Happy birthday!!! Hope you have a blast!!!</item>
+        <item>Things I like about you: humor, looks, everything. Happy Birthday. </item>
+        <item>Watch out world. You are old enough to know what to do and how to do it. Happy Birthday. </item>
+        <item>  I love celebrating with you. Thanks for having a birthday and giving us a reason.</item>
+        <item>When I paint my masterpiece, I am pretty sure there will be a spot for you. Happy Birthday. </item>
+        <item>  Happy Birthday. I hope that you will have a truly marvelous and joyous day with family and friends.</item>
+        <item>Enjoy your birthday and every day to the fullest. A Happy Birthday is just part of a Happy Life. </item>
+        <item> May you always get what you ask for, but you may you always the right things. Happy Birthday. Oh, I didn\'t get you anything. </item>
+        <item>You are only as old as you feel&#8230; Want to feel young tonight? Happy Birthday. </item>
+        <item>Hope your day is simply terrific! Happy Birthday. </item>
+        <item>  It doesn?t matter where you are or what you are doing, what matters is who you are. I like who you are. Happy Birthday.</item>
+        <item>Wishing you a spectacularly beautiful birthday. </item>
+        <item> I wish you a wonderfulBirthday!! I hope you have an amazing day and lots of fun! Enjoy this day,  </item>
+        <item> Time waits for no one but that doesn\'t matter if you don\'t wait for it! Happy Birthday.</item>
+        <item> Today is not the end of another year, but the start of a new one. Happy Birthday.</item>
+    </string-array>
+    <string-array name="BestFriends_male">
+        <item>Being young is a privilege. Being attractive a genetic gift. Being cool, that is all you. Happy Birthday </item>
+        <item>A cheerful friend like you is like a sunny day. Happy Birthday. </item>
+        <item> I Hope You Have An Amazing Day Because You Are Amazing! Thinking of you on your birthday, and wishing you all the best! I hope it is as fantastic as you are, you deserve the best and nothing less.</item>
+        <item> May your days always be full of sunshine and rain, waterfalls and deserts, butterflies and bees and everything else that life has to offer. Happy Birthday. </item>
+        <item> Wishing you metric tons of happiness on your birthday. Enjoy it.</item>
+        <item>You make the world a better place by just being you. Happy Birthday! </item>
+        <item>K-kinda busy K-kinda busy K-kinda busy K-kinda busy - That\'s how you should celebrate your bday. </item>
+        <item>Wishing you love and happiness on your birthday. Happy Birthday </item>
+        <item>Eat, drink and make merry because it is your birthday. Happy Birthday. </item>
+        <item>Some people look old and feel young. Some people look young and feel old. Some people like us look young and feel young. Feels good to party on your birthday doesn\'t it? </item>
+        <item> Happy Birthday!!! I hope this is the begining of the greatest year ever so far for  </item>
+        <item> The happiest person is the person who thinks the most interesting thoughts and we grow happier as we grow older. Happy Birthday.</item>
+        <item>  You aren\'t getting older, you are getting better. Happy Birthday.</item>
+        <item>I want to wish you a Happy Birthday, from the bottom of my heart. </item>
+        <item> I wish you all the happiness in the world! Happy Birthday</item>
+        <item> I wish you the best birthday ever! I hope you get lots of kisses and hugs. Happy Birthday! </item>
+        <item> Thinking about you on your birthday and wishing you much happiness. Happy Birthday.</item>
+        <item> Happy birthday!!! Hope you have a blast!!!</item>
+        <item> Enjoy the party before you reach the age that all the young girls call you sir. Happy Birthday.</item>
+        <item>A friend is someone who understands your past, believes in your future, and accepts you just the way you are - even if you are getting older. Happy Birthday. </item>
+        <item> With friends like you, I could party every day as if it were your birthday. Happy Birthday. </item>
+        <item>You will soon start a new phase of life! But that can wait until you are older. Enjoy another year of being young. Happy Birthday. </item>
+        <item>Hope you dance the night away or at least watch people dancing late into the night, or stay awake or whatever. Happy Birthday. </item>
+        <item>arty early and often. Remember that it only counts as one year no matter how many times you celebrate. Happy Birthday. </item>
+        <item> I love you like I love cake at a birthday party. Don\'t forget to invite me. Happy Birthday.</item>
+        <item> To you it may be one birthday cake, but to your birthday cake you may be the world! Happy Birthday.</item>
+        <item> Life should be lived with a smile on your face and no one does a better job of putting one on my face than you. Happy Birthday!</item>
+        <item> I wish you good health and more years to celebrate. Happy Birthday. </item>
+        <item> You will never be as young again as you are today, so have fun. But be careful, because you have never been this old before. Happy Birthday. </item>
+        <item>You always have such fun birthdays. You should have one every year! Happy Birthday </item>
+        <item>Well, you are another year older and you haven\'t changed a bit. That\'s great because you are perfect just the way you are. Happy Birthday. </item>
+    </string-array>
+    <string-array name="BestFriends_female">
+        <item> Take advantage of how things are so that one day you will take pride in telling how things were. Happy Birthday.</item>
+        <item> Like the song says: Live your life with arms wide open, Today is where your book begins, The rest is still unwritten. Happy Birthday. </item>
+        <item> On that winding road that is life, you are the one I want to ride along with. Happy Birthday! </item>
+        <item> I wish that I could be the greatest friend in the world, but there is no way to be a better friend than you are. Happy Birthday.</item>
+        <item>Happy Birthday, Your good looks are living proof that Mother Nature sometimes wins the battle with Father Time. </item>
+        <item> Happy Birthday to my dear BFF! Our friendship means more than words can say.</item>
+        <item>No need to keep your birthday a secret: it is not your looks but the smile on your face that shows that it is your birthday. </item>
+        <item>You are only young once, but you can be immature forever. Happy Birthday. </item>
+        <item> You have been the greatest gift I could ever have received. Happy Birthday.</item>
+        <item> I hope you have a wonderful day full of happiness and that your wishes come true! Happy Birthday</item>
+        <item> You are only as old as you feel, so grab me. Happy Birthday. </item>
+        <item> I hope today is a Happy Birthday, a happy today and the start of a happy forever.</item>
+        <item> On this your birthday may you be filled with laughter, joy and peace with your family and close friends, content in all life brings.</item>
+        <item>Happy Birthday. I hope that you will have a truly marvelous and joyous day with family and friend </item>
+        <item> If you\'re lucky enough to have a friend like you, then you have truly been lucky. I count myself as lucky. Happy Birthday.</item>
+        <item> Party hard - this is YOUR day, and only yours! Happy Birthday! </item>
+        <item> A true friend remembers your birthday but not your age. Happy Birthday.</item>
+        <item>  Dude, like, I, like totally man, hope that you have, you know, a sweet birthday.</item>
+        <item>You are only young once - if you tell the truth about your age! Happy Birthday. </item>
+        <item>Happy birthday!!! Hope you have a blast!!! </item>
+        <item> Happy birthday!!! Hope you have a blast!!!</item>
+        <item> I hope you have the best Birthday ever. You are such a sweet person and I wish nothing but the best for you on your special day.</item>
+        <item> Always smile and laugh, and never never give up. You make us all happier. Especially on your birthday.</item>
+        <item> ome people look old and feel young. Some people look young and feel old. Some people like us look young and feel young. Feels good to party on your birthday doesn\'t it?</item>
+        <item>You are like a fine wine, you keep getting better with age. Happy Birthday. </item>
+        <item>You are only as old as you look - Here, use these glasses. Happy Birthday. </item>
+        <item>  You\'re the living proof of that age is just a number :) Happy Birthday!</item>
+        <item>  They say sometimes its hard to understand, but time tells truth. The truth is that I wish you a very happy birthday.</item>
+        <item>Have an amazing birthday. It only comes one day a year so do something to make it memorable! HAPPY BIRTHDAY !! </item>
+        <item> I wish you the best birthday ever! I hope you get lots of kisses and hugs. Happy Birthday! </item>
+        <item>I hope you have a wonderful day full of happiness and that your wishes come true! Happy Birthday! </item>
+        <item> Hope you have wonderful birthday filled with fun, excitement and joy. Happy Birthday.</item>
+        <item> I HOPE YOU ENJOY YOUR DAY TODAY AND U SPEND IT WITH THE ONES YOU LOVE!!!! I HOPE YOU GET EVERYTHING YOU ASKED FOR!!!! HAVE A FUN TIME DONT LET ANYONE RUIN IT!!! Happy Birthday!</item>
+        <item>Happy Birthday. Hope it\'s one of the best ever!!!!&#8230; a lovely birthday for a lovely person! </item>
+        <item> Thinking of you with love on your birthday and wishing you everything that brings you happiness today and always,</item>
+        <item> Happy birthday! You are only young once so enjoy it to the fullest. Time passes way too fast and you don\'t get these years back.</item>
+    </string-array>
+    <string-array name="Beautiful">
+        <item>May your day be filled with joy, life, happiness and chocolate. Happy Birthday! </item>
+        <item> Old friends are like items to collect, but it takes a lot of birthdays to make you old. Enjoy this one!</item>
+        <item> I want to wish you happiness for your birthday and every day. Happy Birthday.</item>
+        <item>  The candles on your cake won\'t start a fire if you don\'t light them, but that isn\'t what candles are for. Keep lighting up the world on your birthday.</item>
+        <item> Thank you for being a wonderful person and an inspiration. Happy Birthday!</item>
+        <item>Wishing you a very Happy Birthday, may you have a life full of love and joy, and a blessed life. </item>
+        <item> Today is your birthday! Well, if that isn\'t the frosting on the cake!</item>
+        <item> I want to wish you a Happy Birthday and I truly hope that you enjoy it to the fullest</item>
+        <item> Friends like you share happiness that does not depend on what happens or what is said. Happy Birthday.</item>
+        <item>May birds sing and flowers cover your path to a happy life as you celebrate your birthday. </item>
+        <item>The whole world is in on the secret that there is something incredibly sweet about you. Happy Birthday. </item>
+        <item>  Spend your fame, save your money. That is my gift of birthday advice that celebrities like you need to remember.</item>
+        <item> I am glad that you have a sunny disposition because the 10 day forecast is for you to get older every day! Happy Birthday! </item>
+        <item>I am glad that you have a sunny disposition because the 10-day forecast is for you to get older every day! Happy Birthday. </item>
+        <item>You bring a bit of sunshine and happiness to all those around you. Happy Birthday. </item>
+        <item> Happy Birthday, my wonderful friend! You\'ve accomplished so much in such a short time. Hope this year is the best yet.</item>
+        <item> Happy birthday! Enjoy this year and use it as a launchpad for your future!</item>
+        <item>Wake up! Drink your coffee! It is time to start your day! Birthdays only come once per year. </item>
+        <item>Celebrate your birthday, go have lots of fun, everybody should enjoy it and have tons of fun. Happy Birthday. </item>
+        <item> You\'re the living proof of a statement age is just a number :) Happy Birthday!</item>
+        <item>Wishing a very special person a very special day. Happy Birthday </item>
+        <item> Party hard - this is YOUR day, and only yours! Happy Birthday!</item>
+        <item> Thanks for being someone that I can talk to and share life with. Happy Birthday.</item>
+        <item>Have a wonderful day, get many nice presents and have a lot of fun!! Happy Birthday! </item>
+        <item> Have an amazing birthday. It only comes one day a year so do something to make it memorable! HAPPY BIRTHDAY !!</item>
+        <item> Happy birthday and much more life, love, and happiness to come!</item>
+        <item> Your sweet nature and generous heart are part of what makes you a very special person to me and so many others. I want to wish you a fantastic birthday and a year of pure happiness.</item>
+        <item>   I want to wish you a Happy Birthday and I truly hope that you enjoy it to the fullest</item>
+        <item>Keep working hard, but not TOO hard or you\'ll make yourself sick! Happy Birthday! </item>
+        <item> Have a wonderful day, get many nice presents and have a lot of fun!! Happy Birthday!</item>
+        <item> Keep being awesome, and always take care. Happy Birthday!</item>
+    </string-array>
+    <string-array name="Inspirational">
+        <item> Reach for the stars. You can do it. Happy Birthday.</item>
+        <item> Who\'s going to celebrate a birthday? You\'re gonna celebrate. Who\'s going to blow out the candles? You\'re going to blow out the candles. Who\'s going to have fun? You\'re going to have fun. Happy Birthday.</item>
+        <item>  Thinking of you and wishing you all the best on your birthday. Happy Birthday!</item>
+        <item>Everyone always says that you are the life of the party. I guess that means the life of the fiesta too! Happy Birthday. </item>
+        <item>Thinking of you with love on your birthday and wishing you everything that brings you happiness today and always. </item>
+        <item> Hope you have a magnificent birthday with your loved ones!! Best wishes for a Happy Birthday.</item>
+        <item> Happy Birthday. Remember that getting older is way better than a robot apocalypse </item>
+        <item> You are an amazing Mother and I love you all of the time. Happy Birthday.</item>
+        <item>  Eat, drink and make merry. It\'s your birthday</item>
+        <item>  May all of your wishes come true - today and always. Happy Birthday.</item>
+        <item> Another year has passed but rather than count the years, let me just say how much we count on you. Happy Birthday.</item>
+        <item> Words can\'t say how much happiness we wish for you. Happy Birthday.</item>
+        <item>Enjoy today and make it your own- it is your day to shine! Happy Birthday. </item>
+        <item>  The years come and go, but they do accumulate. Happy Birthday.</item>
+        <item>May all your wishes come true but one, so you always have something to strive for. Happy Birthday! </item>
+        <item>Just when the caterpillar thinks that it is all grown up, it becomes a butterfly. Happy Birthday Butterfly. </item>
+        <item>Today\'s birthday is one of mind over matter: If you don\'t mind your age, it doesn\'t matter. Happy Birthday. </item>
+        <item> You are a hard person to shop for, so I didn\'t get you anything. Happy Birthday</item>
+        <item> You are celebrating your birthday but the rest of us are celebrating the anniversary of you arriving in the world and making it a better, happier place for us. Happy Birthday.</item>
+        <item> Do you know what people in China do on their birthday? They get older too. Happy Birthday. </item>
+        <item> Birthday greetings to you fellow Earthling. This birthday message comes from your spacey friend. I hope that your birthday is out of this world.</item>
+    </string-array>
+    <string-array name="Lovers">
+        <item>Now for today\'s birthday math lesson: If you were 29 (or more than) a few years ago and today is your birthday, then how old are you? The correct answer: 29. </item>
+        <item> Happy Birthday, my great friend! Be proud of the wonderful life you\'ve led so far and look forward to all the adventures yet to come your way. </item>
+        <item>You are the one person I believe when you tell me everything will work out in this crazy life. Happy Birthday. </item>
+        <item> Wishing you health, love, wealth, happiness and just everything your heart desires. Happy Birthday.</item>
+        <item>I hope that your birthday is as happy as a chimpanzee without pants! Happy Birthday. </item>
+        <item>Best birthday wishes ever, yeah that is my birthday wish for you.</item>
+        <item>  I hope that today is the beginning of a great year for you. Happy Birthda.</item>
+        <item>  I hope that your birthday is great, cause it is a good reason to celebrate.</item>
+        <item>Wishing you more fun than a monkey in a tree full of fruit - like it is really possible to be happier than that lucky guy. Happy Birthday. </item>
+        <item>Some people say: My how time flies when you are having fun. I prefer" My how flies have fun when you are having time. Hope your birthday is fun. </item>
+        <item>  Happy Birthday to a person that is charming, talented and witty and reminds me a lot of myself</item>
+        <item> They say that Hope is the branch that we rest on, but if I eat much birthday cake, there is little hope that the branch won\'t break.</item>
+        <item> May you have a fantastic birthday with many more to come.... HAPPY BIRTHDAY!!</item>
+        <item> For your birthday I thought that i would give you some good advice, but then I remembered that you have a lot more experience on getting older than me.</item>
+        <item> Work hard. Play hard. Eat lots of cake. That\'s a good motto for your birthday and for life.</item>
+        <item>  Live your life sharing the beauty and happiness that you have today and every day. Happy Birthday</item>
+        <item> You have been my sister for a long time and all I can say is that you are getting better all the time. Happy Birthday.</item>
+        <item> Of all of the good, the bad and the ugly people, you are the one with the birthday. Happy Birthday</item>
+        <item> Best wishes for a happy day filled with love and laughter. Happy Birthda</item>
+        <item>  Let\'s celebrate the age you act not the age that you are. Happy Birthday.</item>
+        <item>How old would you be if you didn\'t know how old you are? Happy Birthday. </item>
+        <item>It takes a long time to become as young as you are. Happy Birthday.</item>
+        <item> I hope you have a great day to spend with your family and have a day just for yourself because you deserve it ! You\'re a very special person - and don\'t let anyone tell you you\'re not</item>
+        <item>I wish that we could celebrate your birthday together. Do NOT have too much fun without me. </item>
+        <item>May this year bring with it all the success and fulfillment your heart desires. Happy Birthday. </item>
+        <item>  May your day be filled with beautiful moments and magical thoughts. Happy Birthday.</item>
+        <item>  Spend your fame, save your money. That is my gift of birthday advice that celebrities like you need to remember.</item>
+        <item> It is not enough to celebrate just one day, so celebrate EVERY day for the rest of your life. But start today. Happy Birthday. </item>
+        <item> You show the world what it means to live in the moment and to love life. Love your birthday! </item>
+    </string-array>
+    <string-array name="Meaningful">
+        <item> Good things happen when you just go for it. Happy Birthday.</item>
+        <item> If birthdays were wishes, yours would have all have come true - since you have had so many. Happy Birthday one more time.</item>
+        <item> Best wishes for a happy day filled with love and laughter. Happy Birthday.</item>
+        <item> Friends may come and go, but birthdays accumulate. </item>
+        <item> Birthday greeting, birthday greeting, generic birthday greeting. Sorry but that was all I could afford.</item>
+        <item>  Happy birthday! You are only young once so enjoy it to the fullest. Time passes way to fast and you don\'t get these years back. </item>
+        <item>Happy Birthday. Remember that at your age it is a good idea to take a good nap so that you will have the energy to blow out all of those candles. </item>
+        <item> Happy Birthday. Hope it\'s one of the best ever!!!!&#8230; a lovely birthday for a lovely person!</item>
+        <item>  If candle blowing were an olympic sport, you would win a gold medal</item>
+        <item> Life is great at any age. Enjoy yours. Happy Birthday.</item>
+        <item> Happy birthday!!! I hope you have the best bday!!!! Be happy and keep that beautiful smile you have.</item>
+        <item> Keep being awesome, and always take care. Happy Birthday!</item>
+        <item> Wishing you happiness to your heart\'s content and may your dreams all come true. Happy Birthday. </item>
+        <item> Life is a journey. Enjoy every mile. Happy Birthday. </item>
+        <item>  Roses are red, Violets are blue, All I want to say is Happy Birthday to You!</item>
+        <item> I decided not to celebrate your birthday again until I see you. You have not gotten any older in my mind despite the number of birthdays that you have had and that seems odd. You of course may make your own decision.</item>
+        <item> When should you stop putting a candle on your cake for every year old you are? Not when you can no longer blow them out but when it is no longer fun to try to blow them out! Blow baby blow. Happy Birthday.</item>
+        <item> Pause and make your soul glad on your birthday!</item>
+        <item> It is okay to get wild and crazy on your birthday if there is no evidence left behind. So make sure to clean up well. </item>
+        <item>Just wanted to say happy birthday, and hope u hav the best day ever and party like its ur 21st birthday </item>
+        <item> Have a peaceful and relaxing birthday:)</item>
+        <item> It\'s your day, celebrate you! Make this the best day of the rest of your life.</item>
+        <item> When I think of my favorite foods, I can never make up my mind. But when I think of my favorite people, I immediately know that means YOU! Happy Birthday.</item>
+        <item>   If you can\'t wait until tomorrow because you get better looking every day, then I can\'t wait until next year! Happy trip around the sun!</item>
+        <item> Hope you have a magnificent birthday with your loved ones!! Best wishes for a Happy Birthday. </item>
+        <item>A friend like you give friends a good reputation even though together we might deserve a bad reputation. Happy Birthday. </item>
+        <item>  Wishing you the very best from the bottom of my heart! </item>
+        <item> Go forth and set the world on fire. HAPPY BIRTHDAY!</item>
+        <item>Congratulations and happy faces. HAPPY BIRTHDAY! </item>
+        <item>  I wish you the happiest birthday ever and i hope you spend it with your family and friends! :)</item>
+        <item>On your birthday, you can party till the cows come home. Just be careful where you step. Happy Birthday! </item>
+    </string-array>
+    <string-array name="Cute">
+        <item>  I hope that you have a very happy birthday and here\'s to continued success, growth and learning!</item>
+        <item>May this year bring with it all the success and fulfillment your heart desires. Happy Birthday. </item>
+        <item>  May this year bring with it all the success and fulfillment your heart desires. Happy Birthday.</item>
+        <item> I want to wish you a HAPPY BIRTHDAY and I hope its fabulous.</item>
+        <item> When in the course of human events, a birthday becomes inevitable, you should enjoy it to the fullest. </item>
+        <item> Party like a ROCK STAR on your birthday. You are no 1-Hit-Wonder but a superstar every day.</item>
+        <item> Happy Birthday! I toast you, dear friend, and wish you good health, love, and a FABULOUS day!</item>
+        <item> to celebrate a birthday is human. To celebrate your birthday is divine. Happy Birthday!</item>
+        <item> Life is good and you are one of the big reasons why. Enjoy your birthday this year and for the next 100 years and a day.</item>
+        <item>Happy birthday. Wish you a wonderful year ahead as well as lots of love and happiness. </item>
+        <item>  Happy Birthday my friend! I hope you have a great day!!!</item>
+        <item> Into each life rain wii fall but may you have many sunny days. Happy Birthday</item>
+        <item> You enrich the lives of everyone you touch - That is why I always try to stay within your reach! Happy Birthday.</item>
+        <item>  It is a great day to smile and be happy. The kind of Happy in Happy Birthday</item>
+        <item> Wishing you all the great things in life, hope this day will bring you an extra share of all that makes you happiest. Happy Birthday.</item>
+        <item>Happy birthday to you! I hope your day and year are filled with love and surprises.</item>
+        <item>How can I put in words the feeling of happiness and warmth that you give me without even knowing. Happy Birthday. </item>
+        <item> I would like to get on the table and dance for you, but my arthritis is acting up. Happy Birthday! </item>
+        <item> Wishing you endless years of happiness and good health. Happy Birthday.</item>
+        <item> Having a birthday is a great step in the right direction to a long and happy life. In fact you can never get there without a lot of them!</item>
+        <item> Birth is what gets you started. Having a birthday is what keeps you going. Glad to see you are still going strong. Happy Birthday.</item>
+        <item> It is not where you begin but where you end up. Well keep having birthdays and you will end up being really old!</item>
+        <item>Chocolate is not fattening on your birthday so eat all you want! Of course it may catch up with you on the next day when you weigh. </item>
+        <item> Telling the world that you are HAPPY on your birthday can come in the form of a smile, a nod or a verbal yes, as long as it\'s unambiguous, enthusiastic and ongoing.</item>
+        <item>I hope you have a wonderful Birthday filled with Love and Fun! Happy Birthday! </item>
+        <item>Happy Birthday. Continue climbing to greater heights. You are a star! </item>
+        <item>You are so smart, so good looking, so funny. We have so much in common. </item>
+        <item> My therapist suggests setting clear goals in life, such as living until your next birthday. Am I crazy to pay for advice like that? Anyway, that is also my suggestion to you.</item>
+        <item>There are lots of ways to express that you are still young: celebrating on your birthday is one of them. </item>
+    </string-array>
+    <string-array name="Mother">
+        <item>Hey Mom, I am not there for your birthday, but know that I am dancing for us both. Good thing no one can see me. Happy Birthday. </item>
+        <item> Hey Mom, I am not there for your birthday, but know that I am dancing for us both. Good thing no one can see me. Happy Birthday.</item>
+        <item>Mom, without you I wouldn\'t be where I am in the world today. Wow, I wouldn\'t even be in the world today! Happy Birthday </item>
+        <item>I know that I have given you dirty laundry more times than I have given you a birthday present, so why break tradition on your birthday? Happy Birthday. </item>
+        <item> couldn\'t post a Happy Birthday Wish to you Mom on your Facebook wall since we aren\'t Friends. And yes I still consider it stalking that you want to be my Friend anyway.</item>
+        <item>  I think that it is great that you are celebrating your birthday today. But does the entire day have to be about YOU? What about my life? Just kidding! Sort of. Happy Birthday.</item>
+        <item>They say that love and happiness begin at home and you have always shown that to be true. Happy Birthday</item>
+        <item>May all of your dreams and wishes (that don\'t involve my life) come true. Happy Birthday. </item>
+        <item>To my Mom, who has a lot of time to be experienced at being 29 years old. Here\'s to one opportunity to not grow older. Happy Birthday. </item>
+        <item>  Superheroes are one in a million. Great mothers like you are one in a lifetime. Happy Birthday!</item>
+        <item> You\'re not just the person that raised me, you\'re my Mom too. By the way, you were great at both. Happy Birthday.</item>
+        <item> All my friends thought that you were a HOT MOM even before you had so many candles on your cake! Happy Birthday to a mom that keeps getting hotter.</item>
+        <item> Your display of love and happiness with all those around you makes me want to share love and happiness too. Happy Birthday.</item>
+        <item>Happy Birthday to my beautiful, fantastic, amazing and incredible Mom!!! Looking forward to celebrating you today. I love you. </item>
+        <item>  Words can never fully express my love for you and for all the love that you have given to me. Happy Birthday.</item>
+        <item> Mom, I love you, and wish you a very happy day and many more wonderful birthdays!</item>
+        <item> To my mother on her birthday: I hope that your day is filled with good things and happy moments â€” not only today but everyday. And may there always be a smile on your face.</item>
+        <item> There is no place like home and no other mother like you. Happy Birthday.</item>
+        <item>Your strength, love and courage make me better prepared for the challenges in life, Thanks and Happy Birthday. </item>
+        <item>  Happy Birthday to a great mother. I always wanted to be like you when I grew up and I still might be - if I ever grow up!</item>
+        <item> For a special Mom on her birthday, may you always celebrate every day as much as your birthday.
+
+send this message to a friend  Okay M </item>
+        <item> Okay Mom Just KEEP CALM AND CELEBRATE YOUR BIRTHDAY.</item>
+        <item> Happy Birthday. Good moms aren\'t always kind, compassionate, loving, intelligent, and sexy - but those are some of the qualities that you have.</item>
+        <item>Mom, I want to wish you the happiest birthday ever. And know that I love you so very, very much! </item>
+        <item> Things that you taught me throughout my life help me out every day. I always wanted to hug you and say thank you. Happy Birthday.</item>
+        <item>  Mom, your birthday is just a milestone recognizing that every day my appreciation grows greater for all that you do. Happy Birthday!</item>
+        <item>  Mom, thanks for all the positive support and encouragement that you have given me over the years. All I can do is say Happy Birthday and many more.</item>
+        <item>I might have been weird if someone else had been my Mom, but thankfully, with you it was guaranteed. Happy Birthday. </item>
+        <item>  Everybody can see that you are a great Mom, but I get to enjoy having you as my great mom. Happy Birthday.</item>
+        <item>Happy birthday mom! No one loves us like you do. No one believes in their children like you do. </item>
+        <item>  Happy Birthday to my fabulous mom! You are my best friend, the strongest person I know, you love so hard and are the most supportive woman on the planet.</item>
+        <item> Happy birthday mom! No one loves us like you do. No one believes in their children like you do.</item>
+        <item>Things that you taught me throughout my life help me out every day. I always wanted to hug you and say thank you. Happy Birthday. </item>
+        <item>Happy birthday mom! Thank you for loving us all endlessly, for teaching us everything wonderful, for always being there no matter what any of us are going through and most of allâ€¦. Thank you for FAMILY. </item>
+        <item> The love of a mother is one of the most wondrous gifts in life. Happy Birthday.</item>
+        <item> You have taught me what it means to be a mother, and you still show me what it looks like to be a good one all these years later. Happy Birthday.</item>
+        <item> The love of a mother is a very special treasure and I treasure you for it. Happy Birthday.</item>
+        <item>  You brought me into this world, gave me happiness and Joy! I really can\'t imagine my life without you! Happy Birthday!</item>
+        <item>Mom, you have been a teacher, a nurse, a counselor, a chauffeur and a friend. Thanks for being whatever a Mom needed to be at that moment. Happy Birthday. </item>
+        <item>   Happy Birthday today to an amazing, strong woman. You have always loved, supported, and spoiled me like nobody else could.</item>
+        <item> Hey Mom, Happy Birthday. I wanted to thank you for not being crazy or driving me crazy. Not all moms are like that.</item>
+        <item>Having you for a Mom is one of the greatest blessings possible. Happy Birthday. </item>
+        <item> Thank you for teaching me so much growing up and letting me copy you all the time! Happy Birthday </item>
+        <item> I can\'t believe another year has passed! I have always looked up to you, you are my idol! Happy Birthday.</item>
+        <item> Happy birthday mom! Thank you for loving us all endlessly, for teaching us everything wonderful, for always being there no matter what any of us are going through and most of allâ€¦. Thank you for FAMILY.</item>
+        <item>Your heart is kind and open. Your wisdom is deep and quietly shared. Your love is warm and embracing. I love you. Happy Birthday. </item>
+    </string-array>
+    <string-array name="Father">
+        <item>Dad, you are the best friend I could ever have, except on double dates. Happy Birthday. </item>
+        <item> Dad, thanks for being a king and letting me kiss a few frogs in search of my prince. Dreams are good. Happy Birthday.</item>
+        <item> Dad, you showed me that boys can be good and that men should be great. Happy Birthday.</item>
+        <item> When I am your age, I hope that you will be the World\'s Best Grandfather. Happy Birthday.</item>
+        <item> Dad, you are not only a special breed but obviously a special breeder to have a child as wonderful as me. Happy Birthday.</item>
+        <item>Love is a powerful force and your love for me has always made me feel safe and happy. Happy Birthday. </item>
+        <item> I learned a lot from you Dad. And yet I have never been arrested. Happy Birthday.</item>
+        <item> You are absolutely the best father and you always helped me find my absolute best. Happy Birthday. </item>
+        <item> Like to give a Birthday shout out to the person that is responsible for helping me be who I am. Happy Birthday!</item>
+        <item>  Dad you had dreams for me, but you were also the sort of father that let me live my life. I hope that we are both happy with the results. Happy Birthday.</item>
+        <item> Happy Birthday and thanks for always making me feel like the most important thing in the world to you.</item>
+        <item>May your birthday and the years ahead be filled with love and grace. Happy Birthday Daddy. </item>
+        <item> Thank you for always treating me like a million bucks and for always being there for me and understanding me. I hope that this next year brings you lots of happiness!</item>
+        <item> Thank you for always treating me like a million bucks and for always being there for me and understanding me. I hope that this next year brings you lots of happiness</item>
+        <item>  So much of my happiness and success in life I can attribute to you. I love you more than I know how to express and hope you have a happy birthday!</item>
+        <item>  Thanks for believing in me and letting me be my own person. I hope that I am the person you want me to be. Happy Birthday.</item>
+        <item> I don\'t think that you ever took a day off from being the best father you could possibly be. So relax today and enjoy your birthday. </item>
+        <item> Happy Birthday Dad. Thanks for teaching me how to handle the big stuff and letting me get away with a lot of little stuff.</item>
+        <item>  Happy Birthday Dad. I want to thank you for always being there no matter what, when, where or why. </item>
+        <item> You are the best Daddy in the world and I love you lots and lots and lots. Happy Birthday!</item>
+        <item>Great fathers should have great birthdays, so have a great birthday </item>
+        <item> Happy Birthday to the man who inspired me to dream and to work hard to achieve that dream. </item>
+        <item>No matter what your age is, you will always be my hero, my friend and the person whose advice I listen to - whether I ask for it or not. Happy Birthday. </item>
+        <item> Families are strange and you have always been the head of our family. Happy Birthday. </item>
+        <item>  Happy Birthday, to the most wonderful dad I could ever ask for! I can\'t believe how lucky I am to have you in my life.</item>
+        <item>Thank you for always, always loving me, never giving up on me, and making me feel like one in a million. Happy Birthday </item>
+        <item>  I love you and hope you have a wonderful birthday this year. I so wish I could give you a big hug today.</item>
+        <item>  Happy Birthday Dad. I want to thank you for always being there no matter what, when, where or why.</item>
+        <item>You have always been The Most Interesting Man in the World to me. Happy Birthday. </item>
+        <item> Thank you for always treating me like a million bucks and for always being there for me and understanding me. I hope that this next year brings you lots of happiness!</item>
+        <item>Happy birthday, I am so thankful to have you as my dad. Thanks for being here for me. </item>
+        <item>  Here is a big birthday wish with a huge amount from your little girl.</item>
+        <item> While I only live in a small part of a giant world, you have always been the giant in my small world. Thanks for being a loving giant. Happy Birthday. </item>
+        <item>Dad! You are amazing, and someone I look up to so much. I love you. Happy Birthday. </item>
+        <item> You are just the absolute best Dad. You helped make me the person I am today. Isn\'t that a great person? Happy Birthday. </item>
+        <item> You are a great father with a proud daughter. Thanks for everything. Happy Birthday.</item>
+        <item>  Happy Birthday to my one and only father. May God continue to bless you with many more.</item>
+        <item>You always made me feel that whatever I gave you was enough even though I never gave you enough. Thanks Dad. And Happy Birthday. </item>
+        <item> I always want to regift to you and give you back a heart full of love. Happy Birthday.</item>
+        <item> Happy Birthday to a Dad that was always around when I needed him - or when I thought I could hide something from him!</item>
+    </string-array>
+
+</resources>
